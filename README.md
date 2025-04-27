@@ -1,6 +1,6 @@
 <h1>ExpNo 5 : Implement Minimax Search Algorithm for a Simple TIC-TAC-TOE game</h1> 
-<h3>Name:           </h3>
-<h3>Register Number/Staff Id:          </h3>
+<h3>Name:  P Manasa         </h3>
+<h3>Register Number/Staff Id:  212224230149        </h3>
 <H3>Aim:</H3>
 <p>
     Implement Minimax Search Algorithm for a Simple TIC-TAC-TOE game
@@ -63,6 +63,7 @@ Let's walk through the algorithm's execution with the full move tree, and show w
 Here is the function for scoring the game:
 
 # @player is the turn taking player
+~~~
 def score(game)
     if game.win?(@player)
         return 10
@@ -101,10 +102,13 @@ def minimax(game)
         return scores[min_score_index]
     end
 end
+~~~
+
 
 <hr>
 <h2> Program : </h2>
-```
+
+~~~
 
 import time
 
@@ -297,6 +301,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+~~~
 <h2>Sample Input and Output</h2>
 
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/6b668685-8bcc-43c5-b5c2-ddd43f3da84a)
